@@ -72,8 +72,8 @@ class_names = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral'
 
 detector = dlib.get_frontal_face_detector()
 
-net = DenseNet()
-checkpoint = torch.load(os.path.join('/home/pi/Desktop/Expression/models/FER2013_DenseNet', 'PrivateTest_model.t7'),
+net = EdgeNet()
+checkpoint = torch.load(os.path.join('/home/pi/Desktop/Expression/models/FER2013_EdgeNet', 'PrivateTest_model.t7'),
                         map_location=lambda storage, loc: storage)
 net.load_state_dict(checkpoint['net'])
 net.cpu()
