@@ -8,7 +8,7 @@ Datasets and trained models can be obtained in the following two ways：
 
 Please put fer2013_data.h5, RAF_data.h5, CK_data.h5 in the data folder downloaded from the above link into the ./data path.Then, put the RAF_EdgeNet and FER2013_EdgeNet folders under the models folder downloaded from the above link into ./models.
 
-The data folder contains the following files: 
+That is, the data folder contains the following files: 
         
         ./data:         
                 --RAF_data.h5          
@@ -31,3 +31,9 @@ The models folder contains the following files:
                 --resnet.py
                 --__init__.py
         
+Experimental environment：
+
+        python 3.6
+        pytorch 0.4.0
+       
+In addition, the modified path of the file is required.
