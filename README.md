@@ -10,18 +10,12 @@ Please put fer2013_data.h5, RAF_data.h5, CK_data.h5 in the data folder downloade
 
 The data folder contains the following files: 
         
-        ./data: 
-        
-                --RAF_data.h5
-                
-                --RAF.py
-                
-                --fer2013_data.h5
-                
+        ./data:         
+                --RAF_data.h5          
+                --RAF.py             
+                --fer2013_data.h5             
                 --fer.py
-                
-                --CK_data.h5
-                
+                --CK_data.h5         
                 --CK.py
                 
                 
@@ -29,19 +23,11 @@ The models folder contains the following files:
 
         ./models: 
                 --RAF_EdgeNet folder  
-                
-                  --PrivateTest_model.t7
-                  
-                  
+                  --PrivateTest_model.t7  
                 --FER2013_EdgeNet
-                
                   --PrivateTest_model.t7
-                  
                 --EdgeNet.py
-                
                 --vgg.py
-                
                 --resnet.py
-                
                 --__init__.py
         
