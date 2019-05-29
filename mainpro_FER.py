@@ -20,7 +20,7 @@ from models import *
 from thop import profile
 
 parser = argparse.ArgumentParser(description='PyTorch Fer2013 CNN Training')
-parser.add_argument('--model', type=str, default='EdgeNet', help='CNN architecture')
+parser.add_argument('--model', type=str, default='EdgeCNN', help='CNN architecture')
 parser.add_argument('--dataset', type=str, default='/home/ysz/Mask_RCNN/data/pytoch/Expression10/models/FER2013', help='CNN architecture')
 parser.add_argument('--train_bs', default=64, type=int, help='learning rate')
 parser.add_argument('--test_bs', default=4, type=int, help='learning rate')
@@ -68,9 +68,9 @@ if opt.model == 'VGG19':
     net = VGG('VGG19')
 elif opt.model  == 'Resnet18':
     net = ResNet18()
-elif opt.model  == 'EdgeNet':
-    print ("This is EdgeNet ")
-    net = EdgeNet()
+elif opt.model  == 'EdgeCNN':
+    print ("This is EdgeCNN ")
+    net = EdgeCNN()
 
 flops, params = profile(net, input_size=(1, 3, 44,44))
 print("The FLOS of this model is  %0.3f M" % float(flops/1024/1024))
