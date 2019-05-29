@@ -1,5 +1,5 @@
 # Expression-Clasification
-EdgeNet:Improved CNN for Edge Computing  Devices and Its Applications on Facial Expression  Clasification
+EdgeCNN:Improved CNN for Edge Computing  Devices and Its Applications on Facial Expression  Clasification
 
 Datasets and trained models can be obtained in the following two ways：
 
