@@ -19,7 +19,7 @@ from torch.autograd import Variable
 from models import *
 
 parser = argparse.ArgumentParser(description='PyTorch RAF CNN Training')
-parser.add_argument('--model', type=str, default='EdgeNet', help='CNN architecture')
+parser.add_argument('--model', type=str, default='EdgeCNN', help='CNN architecture')
 parser.add_argument('--dataset', type=str, default='/home/ysz/Mask_RCNN/data/pytoch/Expression10/models/RAF', help='CNN architecture')
 parser.add_argument('--train_bs', default=128, type=int, help='learning rate')
 parser.add_argument('--test_bs', default=4, type=int, help='learning rate')
@@ -68,9 +68,9 @@ if opt.model == 'VGG19':
     net = VGG('VGG19')
 elif opt.model  == 'Resnet18':
     net = ResNet18()
-elif opt.model  == 'EdgeNet':
-    print ("This is EdgeNet ")
-    net = EdgeNet()
+elif opt.model  == 'EdgeCNN':
+    print ("This is EdgeCNN ")
+    net = EdgeCNN()
 
 
 if opt.resume:
