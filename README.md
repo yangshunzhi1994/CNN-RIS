@@ -38,5 +38,5 @@ Experimental environment：
         pytorch 0.4.0
        
 Use of Raspberry Pi 3B+：
-        
+        pytorch2onn.py： Pytorch cannot be directly converted to an IR file. Therefore, you need to convert the pytorch model to an onxx file using the pytorch2onn.py file.
 In addition, the modified path of the file is required.
