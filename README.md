@@ -37,4 +37,6 @@ Experimental environment：
         python 3.6
         pytorch 0.4.0
        
+Use of Raspberry Pi 3B+：
+        
 In addition, the modified path of the file is required.
