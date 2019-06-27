@@ -86,7 +86,7 @@ if opt.resume:
     best_PrivateTest_acc_epoch = Private_checkpoint['best_PrivateTest_acc_epoch']
     
     print ('best_PrivateTest_acc is '+ str(best_PrivateTest_acc))
-    net.load_state_dict(Private_checkpoint['net'])
+    net.load_state_dict(Private_checkpoint['net'], strict=False)
     start_epoch = Private_checkpoint['best_PrivateTest_acc_epoch'] + 1
     
 else:
