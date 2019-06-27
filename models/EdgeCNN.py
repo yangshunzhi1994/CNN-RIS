@@ -187,7 +187,7 @@ class EdgeCNN(nn.Module):
     """
     def __init__(self, growth_rate=4, block_config=[2, 2, 2], num_classes=7):
 
-        super(EdgeNet, self).__init__()
+        super(EdgeCNN, self).__init__()
         # First convolution
         
         num_features=32
