@@ -21,7 +21,7 @@ from thop import profile
 
 parser = argparse.ArgumentParser(description='PyTorch Fer2013 CNN Training')
 parser.add_argument('--model', type=str, default='EdgeCNN', help='CNN architecture')
-parser.add_argument('--dataset', type=str, default='/home/ysz/Mask_RCNN/data/pytoch/Expression10/models/FER2013', help='CNN architecture')
+parser.add_argument('--dataset', type=str, default='models/FER2013', help='CNN architecture')
 parser.add_argument('--train_bs', default=64, type=int, help='learning rate')
 parser.add_argument('--test_bs', default=4, type=int, help='learning rate')
 parser.add_argument('--lr', default=0.01, type=float, help='learning rate')

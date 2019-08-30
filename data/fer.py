@@ -19,7 +19,7 @@ class FER2013(data.Dataset):
     def __init__(self, split='Training', transform=None):
         self.transform = transform
         self.split = split  # training set or test set
-        self.data = h5py.File('/home/ysz/Mask_RCNN/data/pytoch/Expression10/data/fer2013_data.h5', 'r', driver='core')
+        self.data = h5py.File('data/fer2013_data.h5', 'r', driver='core')
         # now load the picked numpy arrays
         if self.split == 'Training':
             self.train_data = self.data['Training_pixel']

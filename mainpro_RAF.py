@@ -20,7 +20,7 @@ from models import *
 
 parser = argparse.ArgumentParser(description='PyTorch RAF CNN Training')
 parser.add_argument('--model', type=str, default='EdgeCNN', help='CNN architecture')
-parser.add_argument('--dataset', type=str, default='/home/ysz/Mask_RCNN/data/pytoch/Expression10/models/RAF', help='CNN architecture')
+parser.add_argument('--dataset', type=str, default='models/RAF', help='CNN architecture')
 parser.add_argument('--train_bs', default=128, type=int, help='learning rate')
 parser.add_argument('--test_bs', default=4, type=int, help='learning rate')
 parser.add_argument('--lr', default=0.01, type=float, help='learning rate')
