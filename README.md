@@ -45,3 +45,5 @@ Running on the Raspberry Pi 3B+：
         
         pi_demo.py： Run on the Raspberry Pi 3B+ using an IR file.
 In addition, the modified path of the file is required.
+
+First, we use the dlib library to capture faces. The  implementation of this part can be viewed in our other project  implementation：https://github.com/tobysunx/face_recognition
