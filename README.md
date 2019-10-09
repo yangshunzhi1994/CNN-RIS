@@ -1,7 +1,7 @@
 # Expression-Clasification
 AntCNN::Improved CNN for Edge Computing  Devices and Its Applications on Facial Expression  Clasification
 
-Datasets and EdgeCNN-G's trained models can be obtained in the following two ways：
+Datasets and AntCNN-G's trained models can be obtained in the following two ways：
 
 1.Google Cloud Disk：https://drive.google.com/drive/folders/1WHebQdZrACVms0_3RDGxTTTSyuzfR48C?usp=sharing
 2.Baidu cloud disk：链接：https://pan.baidu.com/s/1mZw9O-cqWhnwH_gu629v2A 
