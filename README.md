@@ -1,5 +1,5 @@
 # Expression-Clasification
-EdgeCNN:Improved CNN for Edge Computing  Devices and Its Applications on Facial Expression  Clasification
+AntCNN::Improved CNN for Edge Computing  Devices and Its Applications on Facial Expression  Clasification
 
 Datasets and EdgeCNN-G's trained models can be obtained in the following two ways：
 
