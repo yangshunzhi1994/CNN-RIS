@@ -1,6 +1,7 @@
 # Expression-Clasification
 AntCNN::Improved CNN for Edge Computing  Devices and Its Applications on Facial Expression  Clasification
-EdgeCNN: Convolutional Neural Network Classification Model with small inputs for Edge Computing (The name of the paper.)
+
+        EdgeCNN: Convolutional Neural Network Classification Model with small inputs for Edge Computing (The name of the paper.)
 
 Datasets and AntCNN-G's trained models can be obtained in the following two ways：
 
