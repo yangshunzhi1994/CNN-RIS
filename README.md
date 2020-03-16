@@ -52,14 +52,9 @@ First, we use the dlib library to capture faces. The  implementation of this par
 
 Corresponding papers for this project：
 
-@article{yang2019edgecnn,
-
-  title={EdgeCNN: Convolutional Neural Network Classification Model with small inputs for Edge Computing},
-  
-  author={Yang, Shunzhi and Gong, Zheng and Ye, Kai and Wei, Yungen and Huang, Zheng and Huang, Zhenhua},
-  
-  journal={arXiv preprint arXiv:1909.13522},
-  
-  year={2019}
-  
-}
+        @article{yang2019edgecnn,
+        title={EdgeCNN: Convolutional Neural Network Classification Model with small inputs for Edge Computing},
+        author={Yang, Shunzhi and Gong, Zheng and Ye, Kai and Wei, Yungen and Huang, Zheng and Huang, Zhenhua},
+        journal={arXiv preprint arXiv:1909.13522},
+        year={2019}
+        }
