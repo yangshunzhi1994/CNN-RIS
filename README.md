@@ -25,13 +25,12 @@ That is, the data folder contains the following files:
 The models folder contains the following files: 
 
         ./models: 
-                --RAF_EdgeCNN folder  
+                --RAF_AntCNN              folder  
                   --PrivateTest_model.t7  
-                --FER2013_EdgeCNN
+                --FER2013_AntCNN          folder  
                   --PrivateTest_model.t7
-                --EdgeNet.py
-                --vgg.py
-                --resnet.py
+                --AntCNN.py
+                --AntGCNNvgg.py
                 --__init__.py
         
 Experimental environment：
