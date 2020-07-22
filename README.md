@@ -1,13 +1,13 @@
 # Expression-Clasification
-AntCNN::Improved CNN for Edge Computing  Devices and Its Applications on Facial Expression  Clasification
+AntCNN: Convolutional Neural Network Classification Model with small inputs for Edge Computing
 
 EdgeCNN: Convolutional Neural Network Classification Model with small inputs for Edge Computing (The name of the paper.)
 
 Datasets and AntCNN-G's trained models can be obtained in the following two ways：
 
 1.Google Cloud Disk：https://drive.google.com/drive/folders/1WHebQdZrACVms0_3RDGxTTTSyuzfR48C?usp=sharing
-2.Baidu cloud disk：链接：https://pan.baidu.com/s/1mZw9O-cqWhnwH_gu629v2A 
-提取码：xucr 
+2.链接：https://pan.baidu.com/s/1gai-6yjIL-QmLdNTDXUUnQ 
+提取码：dug8
 
 Please put fer2013_data.h5, RAF_data.h5, CK_data.h5 in the data folder downloaded from the above link into the ./data path.Then, put the RAF_EdgeCNN and FER2013_EdgeCNN folders under the models folder downloaded from the above link into ./models.
 
