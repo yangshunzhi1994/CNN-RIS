@@ -9,7 +9,7 @@ Datasets and AntCNN-G's trained models can be obtained in the following two ways
 2.链接：https://pan.baidu.com/s/1gai-6yjIL-QmLdNTDXUUnQ 
 提取码：dug8
 
-Please put fer2013_data.h5, RAF_data.h5, CK_data.h5 in the data folder downloaded from the above link into the ./data path.Then, put the RAF_EdgeCNN and FER2013_EdgeCNN folders under the models folder downloaded from the above link into ./models.
+Please put fer2013_data.h5, RAF_data.h5, CK_data.h5 in the data folder downloaded from the above link into the ./data path.Then, put the RAF_AntCNN and FER2013_AntCNN folders under the models folder downloaded from the above link into ./models.
 
 That is, the data folder contains the following files: 
         
