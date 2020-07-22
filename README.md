@@ -30,7 +30,7 @@ The models folder contains the following files:
                 --FER2013_AntCNN          folder  
                   --PrivateTest_model.t7
                 --AntCNN.py
-                --AntGCNNvgg.py
+                --AntGCNN.py
                 --__init__.py
         
 Experimental environment：
