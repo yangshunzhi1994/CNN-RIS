@@ -1,5 +1,5 @@
 # Expression-Clasification
-AntCNN: Convolutional Neural Network Classification Model with small inputs for Edge Computing
+Target Classifification with Reduced Input Size for Edge Computing
 
 EdgeCNN: Convolutional Neural Network Classification Model with small inputs for Edge Computing (The name of the paper.)
 
