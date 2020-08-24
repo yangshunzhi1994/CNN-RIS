@@ -1,5 +1,5 @@
 # Expression-Clasification
-Target Classifification with Reduced Input Size for Edge Computing
+An Accurate Target Classification Network with Reduced Input Size in Edge Computing Devices
 
 EdgeCNN: Convolutional Neural Network Classification Model with small inputs for Edge Computing (The name of the paper.)
 
