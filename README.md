@@ -1,7 +1,5 @@
 # Expression-Clasification
-An Accurate Target Classification Network with Reduced Input Size in Edge Computing Devices
-
-EdgeCNN: Convolutional Neural Network Classification Model with small inputs for Edge Computing (The name of the paper.)
+Making Accurate Object Detection at the Edge: Review and New Progress
 
 Datasets and AntCNN-G's trained models can be obtained in the following two ways：
 
@@ -49,12 +47,3 @@ In addition, the modified path of the file is required.
 
 First, we use the dlib library to capture faces. The  implementation of this part can be viewed in our other project  implementation：https://github.com/tobysunx/face_recognition
 
-
-Corresponding papers for this project：
-
-        @article{yang2019edgecnn,
-        title={EdgeCNN: Convolutional Neural Network Classification Model with small inputs for Edge Computing},
-        author={Yang, Shunzhi and Gong, Zheng and Ye, Kai and Wei, Yungen and Huang, Zheng and Huang, Zhenhua},
-        journal={arXiv preprint arXiv:1909.13522},
-        year={2019}
-        }
