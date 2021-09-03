@@ -1,5 +1,5 @@
 # Expression-Clasification
-Making Accurate Object Detection at the Edge: Review and New Progress
+Making accurate object detection at the edge: review and new approach
 
 Datasets and AntCNN-G's trained models can be obtained in the following two ways：
 
@@ -46,4 +46,10 @@ Running on the Raspberry Pi 3B+：
 In addition, the modified path of the file is required.
 
 First, we use the dlib library to capture faces. The  implementation of this part can be viewed in our other project  implementation：https://github.com/tobysunx/face_recognition
+
+If this work is useful to you, please cite:
+
+        
+       Huang, Z., Yang, S., Zhou, M. et al. Making accurate object detection at the edge: review and new approach. Artif Intell Rev (2021). https://doi.org/10.1007/s10462-021-10059-3
+
 
