@@ -50,6 +50,7 @@ First, we use the dlib library to capture faces. The  implementation of this par
 If this work is useful to you, please cite:
 
         
-       Huang, Z., Yang, S., Zhou, M. et al. Making accurate object detection at the edge: review and new approach. Artif Intell Rev (2021). https://doi.org/10.1007/s10462-021-10059-3
+       Huang, Z., Yang, S., Zhou, M. et al. Making accurate object detection at the edge: review and new approach. 
+       Artif Intell Rev (2021). https://doi.org/10.1007/s10462-021-10059-3
 
 
